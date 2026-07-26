@@ -1,9 +1,18 @@
-$(document).ready(function() {
-    $('a.abstract').click(function() {
-        $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
+document.addEventListener("DOMContentLoaded", () => {
+  const modeToggle = document.getElementById("light-toggle");
+  if (modeToggle) {
+    modeToggle.addEventListener("click", (e) => {
+      e.preventDefault();
+      toggleTheme(localStorage.getItem("theme"));
     });
-    $('a.bibtex').click(function() {
-        $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
+  }
+
+  const navToggle = document.querySelector(".nav-toggle");
+  const navLinks = document.querySelector(".nav-links");
+  if (navToggle && navLinks) {
+    navToggle.addEventListener("click", () => {
+      const open = navLinks.classList.toggle("is-open");
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
-    $('.navbar-nav').find('a').removeClass('waves-effect waves-light');
+  }
 });

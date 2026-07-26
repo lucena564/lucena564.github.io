@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Antônio Lucena | Projects</title>
+    <title>Antônio Lucena | Imobiliária Ondine</title>
     <meta name="author" content="Antônio Lucena" />
-    <meta name="description" content="Selected projects by Antônio Lucena — AI agents, reinforcement learning, ImobiDesk, and Imobiliária Ondine." />
+    <meta name="description" content="Imobiliária Ondine — public website and proposals platform. Nuxt 3, Vue 3, FastAPI." />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous" />
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>" />
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="canonical" href="https://lucena564.github.io/projects/" />
+    <link rel="canonical" href="https://lucena564.github.io/ondine/" />
     <script src="/assets/js/theme.js"></script>
   </head>
   <body>
@@ -39,53 +39,52 @@
 
     <main class="container page">
       <header class="page-header">
-        <h1 data-i18n="projects.title">Projects</h1>
-        <p class="lede" data-i18n="projects.desc">Selected work I care about.</p>
+        <div class="hero-brand">
+          <img src="/assets/img/ondine-logo.webp" alt="Ondine Bezerra Imóveis" />
+          <div>
+            <h1 data-i18n="ondine.title">Imobiliária Ondine</h1>
+            <p class="lede" data-i18n="ondine.desc">Public website and proposals platform for Ondine Bezerra Imóveis</p>
+          </div>
+        </div>
       </header>
 
-      <h2 class="section" style="border:0;padding-top:0;margin-top:0" data-i18n="projects.featured">Featured</h2>
-
-      <div class="project-grid">
-        <a class="project-card" href="/imobidesk/">
-          <div class="thumb">
-            <img src="/assets/img/imobidesk-cover.webp" alt="ImobiDesk" />
-          </div>
-          <div class="body">
-            <h3 data-i18n="projects.imobidesk.title">ImobiDesk</h3>
-            <p data-i18n="projects.imobidesk.desc">Purchase &amp; sale proposal generator</p>
-          </div>
-        </a>
-
-        <a class="project-card" href="/ondine/">
-          <div class="thumb">
-            <img src="/assets/img/ondine-hero.webp" alt="Imobiliária Ondine" />
-          </div>
-          <div class="body">
-            <h3 data-i18n="projects.ondine.title">Imobiliária Ondine</h3>
-            <p data-i18n="projects.ondine.desc">Public site + proposals platform</p>
-          </div>
-        </a>
-
-        <a class="project-card" href="/projects/1_project/">
-          <div class="thumb">
-            <img src="/assets/img/ivy.jpg" alt="Ivy-Chat" />
-          </div>
-          <div class="body">
-            <h3 data-i18n="projects.ivy.title">Ivy-Chat</h3>
-            <p data-i18n="projects.ivy.desc">Real-estate AI agent powered by LLMs</p>
-          </div>
-        </a>
-
-        <a class="project-card" href="/projects/2_project/">
-          <div class="thumb">
-            <img src="/assets/img/flappy.jpg" alt="Flappy Bird RL" />
-          </div>
-          <div class="body">
-            <h3 data-i18n="projects.flappy.title">Reinforcement Learning</h3>
-            <p data-i18n="projects.flappy.desc">Perceptron learning to play Flappy Bird</p>
-          </div>
-        </a>
+      <div class="media-frame">
+        <img src="/assets/img/ondine-hero.webp" alt="Ondine Bezerra Imóveis" />
       </div>
+
+      <article class="prose">
+        <p data-i18n="ondine.p1">
+          A monorepo that rebuilds the brokerage’s public presence and pairs it with an admin panel and API. The public site covers search, listing detail, favorites, compare, contact leads, and institutional pages — rebuilt from a clean-room inventory of the live catalog.
+        </p>
+        <p data-i18n="ondine.p2">
+          Together with ImobiDesk, it forms an end-to-end real-estate stack: catalog on the web, operations and proposal generation inside the desk.
+        </p>
+
+        <hr class="soft" />
+
+        <h2 data-i18n="ondine.stack">Stack</h2>
+        <ul class="stack-pills">
+          <li data-i18n="ondine.s1">Nuxt 3 (website)</li>
+          <li data-i18n="ondine.s2">Vue 3 (admin)</li>
+          <li data-i18n="ondine.s3">FastAPI + PostgreSQL</li>
+          <li data-i18n="ondine.s4">Docker Compose</li>
+        </ul>
+
+        <hr class="soft" />
+
+        <h2 data-i18n="ondine.features">Highlights</h2>
+        <ul class="feature-list">
+          <li data-i18n="ondine.f1">Nuxt 3 public site with search, listing pages, favorites, and compare</li>
+          <li data-i18n="ondine.f2">Vue 3 admin for inventory and operations</li>
+          <li data-i18n="ondine.f3">FastAPI + PostgreSQL public and auth APIs</li>
+          <li data-i18n="ondine.f4">Full catalog import (listings + media) without hotlinking</li>
+          <li data-i18n="ondine.f5">Docker Compose for the whole platform</li>
+        </ul>
+
+        <a class="cta-link" href="https://ondinebezerraimoveis.com.br" target="_blank" rel="noopener noreferrer">
+          <span data-i18n="ondine.live">Reference site</span> →
+        </a>
+      </article>
     </main>
 
     <footer class="site-footer">

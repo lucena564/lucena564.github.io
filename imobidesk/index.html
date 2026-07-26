@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Antônio Lucena | Flappy Bird</title>
+    <title>Antônio Lucena | ImobiDesk</title>
     <meta name="author" content="Antônio Lucena" />
-    <meta name="description" content="Flappy Bird reinforcement learning with a hand-rolled 3-5-1 multilayer perceptron." />
+    <meta name="description" content="ImobiDesk — internal purchase and sale proposal generator for Ondine Bezerra Imóveis. Vue 3, FastAPI, LaTeX, Grok." />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous" />
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>" />
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="canonical" href="https://lucena564.github.io/projects/2_project/" />
+    <link rel="canonical" href="https://lucena564.github.io/imobidesk/" />
     <script src="/assets/js/theme.js"></script>
   </head>
   <body>
@@ -39,46 +39,49 @@
 
     <main class="container page">
       <header class="page-header">
-        <h1 data-i18n="flappy.title">Flappy Bird with a Perceptron</h1>
-        <p class="lede" data-i18n="flappy.desc">Reinforcement learning with a hand-rolled multilayer perceptron</p>
+        <h1 data-i18n="imobidesk.title">ImobiDesk</h1>
+        <p class="lede" data-i18n="imobidesk.desc">Internal purchase &amp; sale proposal generator for Ondine Bezerra Imóveis</p>
       </header>
 
+      <div class="media-frame">
+        <img src="/assets/img/imobidesk-cover.webp" alt="ImobiDesk — proposals list" />
+      </div>
+      <p class="caption" data-i18n="imobidesk.cap1">Proposal history with status, values, and quick open.</p>
+
+      <div class="media-frame" style="margin-top:1.25rem">
+        <img src="/assets/img/imobidesk-properties.webp" alt="ImobiDesk — property catalog" />
+      </div>
+      <p class="caption" data-i18n="imobidesk.cap2">Local property catalog synced from the brokerage site.</p>
+
       <article class="prose">
-        <p data-i18n="flappy.p1">
-          I recreated Flappy Bird and wrote my own perceptron — no PyTorch or TensorFlow — so each bird has its own network and learns to fly. The repo has multiple branches; take a look.
+        <p data-i18n="imobidesk.p1">
+          ImobiDesk is an internal tool that turns property listings into polished purchase and sale proposals in minutes. Brokers pick a template, select a listing, fill buyer/seller and commercial terms, preview the document, and export a versioned PDF.
         </p>
-        <p>
-          <span data-i18n="flappy.repo">Repository</span>:
-          <a href="https://github.com/lucena564/Flappy-Bird" target="_blank" rel="noopener noreferrer">Flappy-Bird Reinforcement Learning</a>
+        <p data-i18n="imobidesk.p2">
+          AI assists where it helps: Grok extracts party data from images or PDFs, and a Studio flow lets admins iterate on LaTeX templates with live PDF preview.
         </p>
 
         <hr class="soft" />
 
-        <h2 data-i18n="flappy.heading">Flappy Bird with AI</h2>
-        <p data-i18n="flappy.p2">
-          I wanted to implement reinforcement learning from scratch. Each bird carries a network and improves through real-time training.
-        </p>
-
-        <div class="media-frame center">
-          <img
-            src="https://github.com/lucena564/Flappy-Bird/raw/main/images_gifs_readme/1%20File%20to%20readme.gif"
-            alt="Flappy Bird AI training"
-            style="max-height:320px;width:auto;margin-inline:auto"
-          />
-        </div>
-        <p class="caption" data-i18n="flappy.caption">
-          Training birds with reinforcement learning using a 3-5-1 perceptron per bird.
-        </p>
-
-        <ul class="feature-list">
-          <li data-i18n="flappy.h1">Multilayer perceptron with 3 input sensors, 5 hidden neurons, 1 output</li>
-          <li data-i18n="flappy.h2">Custom learning algorithm without deep-learning frameworks</li>
-          <li data-i18n="flappy.h3">Real-time training where the best birds keep evolving</li>
+        <h2 data-i18n="imobidesk.stack">Stack</h2>
+        <ul class="stack-pills">
+          <li data-i18n="imobidesk.s1">Vue 3 + Vite + Pinia</li>
+          <li data-i18n="imobidesk.s2">FastAPI + SQLAlchemy + Alembic + PostgreSQL</li>
+          <li data-i18n="imobidesk.s3">Docker Compose</li>
+          <li data-i18n="imobidesk.s4">LaTeX / XeLaTeX PDF generation</li>
+          <li data-i18n="imobidesk.s5">xAI Grok for extraction &amp; template studio</li>
         </ul>
 
-        <a class="cta-link" href="https://github.com/lucena564/Flappy-Bird" target="_blank" rel="noopener noreferrer">
-          <span data-i18n="flappy.cta">View the code on GitHub</span> →
-        </a>
+        <hr class="soft" />
+
+        <h2 data-i18n="imobidesk.features">Highlights</h2>
+        <ul class="feature-list">
+          <li data-i18n="imobidesk.f1">Guided proposal flow with drafts, preview, and immutable PDF versions</li>
+          <li data-i18n="imobidesk.f2">Property catalog sync from the public brokerage site</li>
+          <li data-i18n="imobidesk.f3">LaTeX (XeLaTeX) templates with Jinja placeholders and Grok Studio</li>
+          <li data-i18n="imobidesk.f4">Document AI extraction for buyer, seller, and commercial conditions</li>
+          <li data-i18n="imobidesk.f5">Auth with Argon2id, HttpOnly sessions, and CSRF on mutations</li>
+        </ul>
       </article>
     </main>
 
