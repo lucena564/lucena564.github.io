@@ -12,13 +12,13 @@
       "nav.toggleLang": "Language",
       "nav.menu": "Menu",
 
-      "home.role": "Data Science II · MLOps · AWS · ML · Deep Learning",
+      "home.role": "AI Platform Engineer at Certta · Python Specialist · AWS · Backend Engineering · DevOps · GenAI Infrastructure",
       "home.location": "Recife, PE — Brazil",
       "home.welcome": "Welcome to my portfolio.",
       "home.p1":
-        "I am a Data Scientist and Computer Engineering student at CIn–UFPE, focused on Machine Learning, Deep Learning, and cloud-native pipelines (ETLs, MLOps, and automation).",
+        "I am an AI Platform Engineer and Computer Engineering student at CIn–UFPE, focused on backend systems, cloud infrastructure, DevOps, and GenAI platforms.",
       "home.p2":
-        'I currently work at <a href="https://www.linkedin.com/company/certtahub" target="_blank" rel="noopener noreferrer">Certta</a> as Data Science II, building scalable AI platforms that span backend engineering, machine learning, computer vision, and cloud infrastructure. Day to day I design API Gateways, provision infrastructure with AWS CDK, and ship LLM and vision pipelines on SageMaker and Amazon Bedrock.',
+        'I currently work at <a href="https://www.linkedin.com/company/certtahub" target="_blank" rel="noopener noreferrer">Certta</a> as AI Platform Engineer, building scalable AI platforms that span backend engineering, machine learning, computer vision, and cloud infrastructure. Day to day I design API Gateways, provision infrastructure with AWS CDK, and ship LLM and vision pipelines on SageMaker and Amazon Bedrock.',
       "home.p3":
         'Before Certta I spent over a year at <a href="https://www.neurotech.com.br/" target="_blank" rel="noopener noreferrer">Neurotech</a> (a B3 company), where I was promoted to Data Science II. There I worked on LLM applications, RAG with LangChain, and a scalable API Gateway used by credit-policy developers.',
       "home.p4":
@@ -30,7 +30,7 @@
       "home.u1.text":
         "Building ImobiDesk and the Ondine Bezerra Imóveis platform (site + proposal engine).",
       "home.u2.date": "Oct 2025",
-      "home.u2.text": "Joined Certta as Data Science II.",
+      "home.u2.text": "Joined Certta as AI Platform Engineer.",
       "home.u3.date": "Oct 2025",
       "home.u3.text": "Closed a 1 year 4 month chapter at Neurotech.",
       "home.u4.date": "Apr 2025",
@@ -134,13 +134,13 @@
       "nav.toggleLang": "Idioma",
       "nav.menu": "Menu",
 
-      "home.role": "Data Science II · MLOps · AWS · ML · Deep Learning",
+      "home.role": "AI Platform Engineer at Certta · Python Specialist · AWS · Backend Engineering · DevOps · GenAI Infrastructure",
       "home.location": "Recife, PE — Brasil",
       "home.welcome": "Bem-vindo ao meu portfólio.",
       "home.p1":
-        "Sou Cientista de Dados e estudante de Engenharia da Computação no CIn–UFPE, com foco em Machine Learning, Deep Learning e pipelines cloud-native (ETLs, MLOps e automações).",
+        "Sou AI Platform Engineer e estudante de Engenharia da Computação no CIn–UFPE, com foco em backend, infraestrutura cloud, DevOps e plataformas GenAI.",
       "home.p2":
-        'Atualmente trabalho na <a href="https://www.linkedin.com/company/certtahub" target="_blank" rel="noopener noreferrer">Certta</a> como Data Science II, construindo plataformas de IA escaláveis que envolvem backend, machine learning, visão computacional e infraestrutura em nuvem. No dia a dia, desenho API Gateways, provisiono infraestrutura com AWS CDK e entrego pipelines de LLM e visão no SageMaker e Amazon Bedrock.',
+        'Atualmente trabalho na <a href="https://www.linkedin.com/company/certtahub" target="_blank" rel="noopener noreferrer">Certta</a> como AI Platform Engineer, construindo plataformas de IA escaláveis que envolvem backend, machine learning, visão computacional e infraestrutura em nuvem. No dia a dia, desenho API Gateways, provisiono infraestrutura com AWS CDK e entrego pipelines de LLM e visão no SageMaker e Amazon Bedrock.',
       "home.p3":
         'Antes da Certta, passei mais de um ano na <a href="https://www.neurotech.com.br/" target="_blank" rel="noopener noreferrer">Neurotech</a> (empresa B3), onde fui promovido a Data Science II. Lá atuei em aplicações com LLMs, RAG com LangChain e um API Gateway escalável usado por desenvolvedores de políticas de crédito.',
       "home.p4":
@@ -152,7 +152,7 @@
       "home.u1.text":
         "Construindo o ImobiDesk e a plataforma da Ondine Bezerra Imóveis (site + motor de propostas).",
       "home.u2.date": "Out 2025",
-      "home.u2.text": "Entrei na Certta como Data Science II.",
+      "home.u2.text": "Entrei na Certta como AI Platform Engineer.",
       "home.u3.date": "Out 2025",
       "home.u3.text": "Encerrei um ciclo de 1 ano e 4 meses na Neurotech.",
       "home.u4.date": "Abr 2025",

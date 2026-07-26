@@ -1,6 +1,6 @@
 # lucena564.github.io
 
-Personal portfolio of **Antônio Lucena** — Data Science II | MLOps | AWS | ML | Deep Learning.
+Personal portfolio of **Antônio Lucena** — AI Platform Engineer at Certta · Python Specialist · AWS · Backend Engineering · DevOps · GenAI Infrastructure.
 
 ## Pages
 
